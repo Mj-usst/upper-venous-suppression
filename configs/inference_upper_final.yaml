@@ -1,0 +1,20 @@
+model:
+  dataset_id: 38
+  dataset_name: Dataset038_finetune127
+  configuration: 3d_fullres
+  fold: 0
+  checkpoint: checkpoint_best.pth
+  trainer: nnUNetTrainer
+  plans: nnUNetPlans
+
+input:
+  expected_format: nnUNet v2 NIfTI; single-channel postcontrast T1-weighted MRL; filename suffix _0000.nii.gz
+  recommended_phase: phase 6 or equivalent late postcontrast phase
+
+postprocessing:
+  suppression:
+    radius: 1
+    kernel_size: [3, 3, 3]
+  highlighting:
+    overlay_alpha: 0.45
+    percentile_window: [1, 99]

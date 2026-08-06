@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Outputs and local configuration
+outputs/
+runs/
+logs/
+configs/paths.local.yaml
+
+# nnU-Net working directories
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+DATASET/
+
+# Clinical imaging data
+*.dcm
+*.ima
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+*.mgz
+*.npz
+*.npy
+
+# Synthetic example source files
+!examples/synthetic_case/README.md
+!examples/synthetic_case/create_synthetic_case.py
+!examples/synthetic_case/dataset.json
+
+# Model checkpoints and archives
+*.pth
+*.pt
+*.ckpt
+weights/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

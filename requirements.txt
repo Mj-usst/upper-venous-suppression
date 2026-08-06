@@ -1,0 +1,13 @@
+nnunetv2
+numpy
+pandas
+scipy
+scikit-image
+nibabel
+SimpleITK
+pydicom
+imageio
+tqdm
+PyYAML
+matplotlib
+pytest

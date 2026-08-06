@@ -1,0 +1,11 @@
+{
+  "channel_names": {
+    "0": "synthetic_postcontrast_T1w_MRL"
+  },
+  "labels": {
+    "background": 0,
+    "vein": 1
+  },
+  "numTraining": 0,
+  "file_ending": ".nii.gz"
+}

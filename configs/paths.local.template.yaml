@@ -1,0 +1,8 @@
+# Copy to configs/paths.local.yaml on your machine. Do not commit real local paths.
+
+nnunet_raw: /path/to/nnUNet_raw
+nnunet_preprocessed: /path/to/nnUNet_preprocessed
+nnunet_results: /path/to/nnUNet_results
+
+weights_dir: /path/to/LympClear/weights
+outputs_dir: /path/to/LympClear/outputs

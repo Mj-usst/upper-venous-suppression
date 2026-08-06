@@ -1,0 +1,4 @@
+case_id,image_path,label_path,center,patient_id,phase,split
+case001,/path/to/case001_phase6_0000.nii.gz,/path/to/case001_phase6_mask.nii.gz,MC1,patient001,6,train
+case002,/path/to/case002_phase6_0000.nii.gz,/path/to/case002_phase6_mask.nii.gz,MC1,patient002,6,train
+case101,/path/to/case101_phase6_0000.nii.gz,,MC2,patient101,6,test
